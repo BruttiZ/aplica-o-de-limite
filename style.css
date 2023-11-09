@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+h1 {
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007BFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
